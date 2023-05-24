@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "sst bind next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -12,5 +12,10 @@
     "next": "13.4.3",
     "react": "18.2.0",
     "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "sst": "^2.8.29",
+    "aws-cdk-lib": "2.72.1",
+    "constructs": "10.1.156"
   }
 }
